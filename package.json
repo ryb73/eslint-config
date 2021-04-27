@@ -6,7 +6,6 @@
   "repository": "git@github.com:ryb73/eslint-config.git",
   "author": "Ryan <rpbiwer@gmail.com>",
   "license": "MIT",
-  "private": false,
   "publishConfig": {
     "access": "public"
   },
@@ -55,7 +54,7 @@
     "@typescript-eslint/eslint-plugin": "^4.22.0",
     "@typescript-eslint/parser": "^4.22.0",
     "@yarnpkg/pnpify": "^3.0.0-rc.3",
-    "eslint": "^7.25.0",
+    "eslint": ">= 7",
     "eslint-config-hardcore": "^19.2.0",
     "eslint-config-prettier": "^8.3.0",
     "eslint-import-resolver-node": "^0.3.4",
