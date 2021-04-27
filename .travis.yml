@@ -1,0 +1,18 @@
+language: node_js
+cache:
+  directories:
+    - ./.yarn/cache
+node_js:
+- 12
+install: yarn --immutable
+script:
+- yarn test
+# deploy:
+#   skip_cleanup: true
+#   provider: npm
+#   email: rpbiwer@gmail.com
+#   on:
+#     tags: true
+#     branch: main
+#   api_key:
+#     secure: IhR8pY7v/CeczFte4E7WpCPRNlX816yqkHntEXaqA7Njr3XXjMN4uQJkJi9MsPqRsmvwMFiRvSleiefrD0u1TL3UdpC5B40iDCaklJFAdqtRp2ONQYO7nMpy1CO5J+NPDVNvU47FawG9vKL1F//qXCRbnWAwURa5WVrocqoJZ5XFA5fctqa8htVNi2DCgnwQdBbVey7wfKkl1Ews7szA39zglfKq/uqAIp6lphi6qFkH0azwU80NeZwjREoNTPUd3i4IdG2VIEga9VwEd5bJq3tPdfl8QiyGQbpJFF/RlWeMlBJNXJh+pCd3VrJylvE1hTt5Q7K5lSR87S6C829dBbVN8S4nyql41TAKNf8z6AtT2g07kC13b4lOVGV5KDewqMMoDz0wH4c+0q7ZnMGgMxiecWxljd5PVDT9BpwlUhdAMz/KzqvxQP43lRKQ5vn0DbloWgHWlp3/gVqjRY5yaHR/VBCngKV6aakZf/DBjmz+Ds9LW9iD5NvJMvfINXCXqf8iIk8ksqXzqeRG+jfJUUCxS9L8P/LGTJczdfFtK43vdjd32Dpt6Xc6yfAwbkz6AbzAqye+37UYqZwBsWZv/Hz9y0j+EgMBfi/muCbnXw6aKuTRw6J8Opb54KtwuxKc/WycST/T0Yg9O2K9s/7yHHSX6RbP8yv/VjGgRsh+s3w=
