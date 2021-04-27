@@ -6,6 +6,7 @@
   "repository": "git@github.com:ryb73/eslint-config.git",
   "author": "Ryan <rpbiwer@gmail.com>",
   "license": "MIT",
+  "private": false,
   "scripts": {
     "lint": "eslint . --ext ts --ext tsx --ext js",
     "test": "yarn lint"
