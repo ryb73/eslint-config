@@ -112,6 +112,7 @@ module.exports = {
     ],
     "import/prefer-default-export": `off`,
 
+    "init-declarations": `off`,
     "line-comment-position": `off`,
     "lines-around-comment": `off`,
     "max-len": `off`,
