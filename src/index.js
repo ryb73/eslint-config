@@ -99,6 +99,8 @@ module.exports = {
           `jest.globalTeardown.js`,
           `jest.setup.js`,
           `next.config.js`,
+          `**/*.test.{js,ts,tsx}`,
+          `**/*.spec.{js,ts,tsx}`,
         ],
       },
     ],
