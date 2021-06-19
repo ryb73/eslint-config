@@ -79,6 +79,95 @@
     "putout": "^16.11.0",
     "typescript": "^4.2.4"
   },
+  "peerDependenciesMeta": {
+    "@emotion/eslint-plugin": {
+      "optional": true
+    },
+    "@shopify/eslint-plugin": {
+      "optional": true
+    },
+    "@typescript-eslint/eslint-plugin": {
+      "optional": true
+    },
+    "@typescript-eslint/parser": {
+      "optional": true
+    },
+    "eslint": {
+      "optional": true
+    },
+    "eslint-config-hardcore": {
+      "optional": true
+    },
+    "eslint-config-prettier": {
+      "optional": true
+    },
+    "eslint-import-resolver-node": {
+      "optional": true
+    },
+    "eslint-plugin-array-func": {
+      "optional": true
+    },
+    "eslint-plugin-eslint-comments": {
+      "optional": true
+    },
+    "eslint-plugin-ext": {
+      "optional": true
+    },
+    "eslint-plugin-import": {
+      "optional": true
+    },
+    "eslint-plugin-json": {
+      "optional": true
+    },
+    "eslint-plugin-no-constructor-bind": {
+      "optional": true
+    },
+    "eslint-plugin-no-use-extend-native": {
+      "optional": true
+    },
+    "eslint-plugin-optimize-regex": {
+      "optional": true
+    },
+    "eslint-plugin-prettier": {
+      "optional": true
+    },
+    "eslint-plugin-promise": {
+      "optional": true
+    },
+    "eslint-plugin-putout": {
+      "optional": true
+    },
+    "eslint-plugin-react": {
+      "optional": true
+    },
+    "eslint-plugin-react-hooks": {
+      "optional": true
+    },
+    "eslint-plugin-regexp": {
+      "optional": true
+    },
+    "eslint-plugin-security": {
+      "optional": true
+    },
+    "eslint-plugin-sonarjs": {
+      "optional": true
+    },
+    "eslint-plugin-unicorn": {
+      "optional": true
+    },
+    "graphql": {
+      "optional": true
+    },
+    "prettier": {
+      "optional": true
+    },
+    "putout": {
+      "optional": true
+    },
+    "typescript": {
+      "optional": true
+    }
+  },
   "// transitivePeerDeps": {
     "//": "Peer dependencies that aren't used directly by this package, but by its direct peer dependencies",
     "deps": [
