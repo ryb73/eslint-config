@@ -140,6 +140,7 @@ module.exports = {
     "no-undef": `off`,
     "no-undefined": `off`,
     "no-underscore-dangle": `off`,
+    "no-unused-expressions": `off`,
     "no-unused-vars": `off`,
     "no-use-before-define": `off`,
     "no-warning-comments": `off`,
