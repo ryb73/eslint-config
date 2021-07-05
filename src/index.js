@@ -205,6 +205,7 @@ module.exports = {
     "unicorn/no-abusive-eslint-disable": `off`,
     "unicorn/no-null": `off`,
     "unicorn/no-unreadable-array-destructuring": `off`,
+    "unicorn/prefer-node-protocol": `off`, // TODO: reevaluate later
     "unicorn/prefer-query-selector": `off`,
     "unicorn/prevent-abbreviations": `off`,
   },
