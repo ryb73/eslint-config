@@ -145,6 +145,7 @@ module.exports = {
     "no-use-before-define": `off`,
     "no-warning-comments": `off`,
     "padding-line-between-statements": `off`,
+    "prefer-destructuring": `off`,
 
     "promise/avoid-new": `off`,
 
