@@ -6,6 +6,16 @@ const base = require("./src");
 
 module.exports = {
   ...base,
+
+  overrides: [
+    {
+      files: [`./test/**/*`],
+      parserOptions: {
+        sourceType: `module`,
+      },
+    },
+  ],
+
   rules: {
     ...base.rules,
     "@typescript-eslint/no-unsafe-call": `off`,

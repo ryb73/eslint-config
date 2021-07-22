@@ -16,7 +16,7 @@ module.exports = {
     `hardcore`,
   ],
 
-  ignorePatterns: [`.pnp.js`, `.yarn`],
+  ignorePatterns: [`.pnp.js`, `.yarn`, `node_modules`, `lib`],
 
   parserOptions: {
     sourceType: `script`,
