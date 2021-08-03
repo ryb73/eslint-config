@@ -135,6 +135,7 @@ module.exports = {
     "no-param-reassign": [`warn`, { props: false }],
     "no-plusplus": `off`,
     "no-redeclare": `off`,
+    "no-restricted-globals": `off`,
     "no-shadow": `off`,
     "no-ternary": `off`,
     "no-undef": `off`,
@@ -185,6 +186,7 @@ module.exports = {
     "security/detect-unsafe-regex": `off`, // False positive? Similar unicorn rule didn't throw error
 
     "sonarjs/cognitive-complexity": `off`,
+    "sonarjs/elseif-without-else": `off`,
     "sonarjs/no-small-switch": `off`,
 
     "sort-imports": [
