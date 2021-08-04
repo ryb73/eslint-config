@@ -2901,6 +2901,7 @@ __metadata:
     eslint-plugin-eslint-comments: ^3.2.0
     eslint-plugin-ext: ^0.1.0
     eslint-plugin-import: ^2.22.1
+    eslint-plugin-jest: ^24.4.0
     eslint-plugin-json: ^3.0.0
     eslint-plugin-no-constructor-bind: ^2.0.4
     eslint-plugin-no-use-extend-native: ^0.5.0
@@ -2930,6 +2931,7 @@ __metadata:
     eslint-plugin-eslint-comments: ^3.2.0
     eslint-plugin-ext: ^0.1.0
     eslint-plugin-import: ^2.22.1
+    eslint-plugin-jest: ^24.4.0
     eslint-plugin-json: ^3.0.0
     eslint-plugin-no-constructor-bind: ^2.0.4
     eslint-plugin-no-use-extend-native: ^0.5.0
@@ -2971,6 +2973,8 @@ __metadata:
     eslint-plugin-ext:
       optional: true
     eslint-plugin-import:
+      optional: true
+    eslint-plugin-jest:
       optional: true
     eslint-plugin-json:
       optional: true
@@ -5064,6 +5068,21 @@ __metadata:
     "@typescript-eslint/eslint-plugin":
       optional: true
   checksum: 13f4522cd838a6a356a080f76424579a58aa2f9b4f4b3fdd3713278718496c62ba3d8f53c0fb6ad6fd96ca6cfd6ee728f7dd51893b91eccfb4396b832f757afb
+  languageName: node
+  linkType: hard
+
+"eslint-plugin-jest@npm:^24.4.0":
+  version: 24.4.0
+  resolution: "eslint-plugin-jest@npm:24.4.0"
+  dependencies:
+    "@typescript-eslint/experimental-utils": ^4.0.1
+  peerDependencies:
+    "@typescript-eslint/eslint-plugin": ">= 4"
+    eslint: ">=5"
+  peerDependenciesMeta:
+    "@typescript-eslint/eslint-plugin":
+      optional: true
+  checksum: 189a78413943822ad3b58e13906960815dca790035ed00eab796fe465b6f48855b7e2f40a1d30c5fa34bf205d9baa27fdf47cc58c9f402f7d7c358cd3dea8698
   languageName: node
   linkType: hard
 

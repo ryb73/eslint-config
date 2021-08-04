@@ -33,6 +33,7 @@
     "eslint-plugin-eslint-comments": "^3.2.0",
     "eslint-plugin-ext": "^0.1.0",
     "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-jest": "^24.4.0",
     "eslint-plugin-json": "^3.0.0",
     "eslint-plugin-no-constructor-bind": "^2.0.4",
     "eslint-plugin-no-use-extend-native": "^0.5.0",
@@ -63,6 +64,7 @@
     "eslint-plugin-eslint-comments": "^3.2.0",
     "eslint-plugin-ext": "^0.1.0",
     "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-jest": "^24.4.0",
     "eslint-plugin-json": "^3.0.0",
     "eslint-plugin-no-constructor-bind": "^2.0.4",
     "eslint-plugin-no-use-extend-native": "^0.5.0",
@@ -116,6 +118,9 @@
       "optional": true
     },
     "eslint-plugin-import": {
+      "optional": true
+    },
+    "eslint-plugin-jest": {
       "optional": true
     },
     "eslint-plugin-json": {

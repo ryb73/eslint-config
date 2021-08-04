@@ -14,6 +14,7 @@ module.exports = {
     `plugin:react-hooks/recommended`,
     `plugin:@typescript-eslint/all`,
     `hardcore`,
+    `plugin:jest/all`,
   ],
 
   ignorePatterns: [`.pnp.js`, `.yarn`, `node_modules`, `lib`],
@@ -115,6 +116,20 @@ module.exports = {
     "import/prefer-default-export": `off`,
 
     "init-declarations": `off`,
+
+    "jest/consistent-test-it": `off`,
+    "jest/lowercase-name": `off`,
+    "jest/no-export": `off`,
+    "jest/no-hooks": `off`,
+    "jest/prefer-expect-assertions": [
+      `warn`,
+      { onlyFunctionsWithAsyncKeyword: true },
+    ],
+    "jest/prefer-strict-equal": `off`,
+    "jest/require-top-level-describe": `off`,
+    "jest/unbound-method": `off`,
+    "jest/valid-title": `off`,
+
     "line-comment-position": `off`,
     "lines-around-comment": `off`,
     "max-len": `off`,
