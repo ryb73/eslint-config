@@ -16,6 +16,11 @@ module.exports = {
     },
   ],
 
+  parserOptions: {
+    sourceType: `script`,
+    project: `./tsconfig.json`,
+  },
+
   rules: {
     ...base.rules,
     "@typescript-eslint/no-unsafe-call": `off`,
