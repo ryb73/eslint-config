@@ -19,8 +19,35 @@ module.exports = {
 
   ignorePatterns: [`.pnp.js`, `.yarn`, `node_modules`, `lib`],
 
+  overrides: [
+    {
+      files: [
+        `./.eslintrc.js`,
+        `./babel.config.js`,
+        `./jest.config.js`,
+        `./jest.setup.js`,
+        `./jest.globalSetup.js`,
+        `./jest.globalTeardown.js`,
+        `./metro.config.js`,
+        `./next.config.js`,
+      ],
+      parserOptions: {
+        sourceType: `script`,
+      },
+      rules: {
+        "unicorn/prefer-module": `off`,
+      },
+    },
+    {
+      files: [`**/*.d.ts`],
+      rules: {
+        "@typescript-eslint/consistent-type-definitions": `off`,
+      },
+    }
+  ],
+
   parserOptions: {
-    sourceType: `script`,
+    sourceType: `module`,
     project: `./tsconfig.json`,
   },
 
@@ -100,6 +127,7 @@ module.exports = {
           `jest.globalTeardown.{js,ts,tsx}`,
           `jest.setup.{js,ts,tsx}`,
           `next.config.{js,ts,tsx}`,
+          `rollup.config.{js,ts,tsx}`,
           `**/*.test.{js,ts,tsx}`,
           `**/*.spec.{js,ts,tsx}`,
         ],
