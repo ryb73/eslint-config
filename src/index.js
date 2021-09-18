@@ -30,6 +30,7 @@ module.exports = {
         `./jest.globalTeardown.js`,
         `./metro.config.js`,
         `./next.config.js`,
+        `./react-native.config.js`,
       ],
       parserOptions: {
         sourceType: `script`,
@@ -42,6 +43,7 @@ module.exports = {
       files: [`**/*.d.ts`],
       rules: {
         "@typescript-eslint/consistent-type-definitions": `off`,
+        "import/unambiguous": `off`,
       },
     },
   ],
@@ -89,9 +91,10 @@ module.exports = {
     "@typescript-eslint/prefer-readonly-parameter-types": `off`,
     "@typescript-eslint/promise-function-async": `off`,
     "@typescript-eslint/quotes": [`warn`, `backtick`],
-    "@typescript-eslint/semi": `warn`,
+    "@typescript-eslint/semi": `off`,
     "@typescript-eslint/space-before-function-paren": `off`,
     "@typescript-eslint/strict-boolean-expressions": `off`,
+    "@typescript-eslint/triple-slash-reference": `off`,
     "@typescript-eslint/unbound-method": `off`,
 
     "array-callback-return": `off`,
@@ -247,6 +250,7 @@ module.exports = {
         minKeys: 5,
       },
     ],
+    "spaced-comment": [`warn`, `always`, { markers: [`/`] }],
 
     "unicorn/no-abusive-eslint-disable": `off`,
     "unicorn/no-null": `off`,
