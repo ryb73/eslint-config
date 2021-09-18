@@ -17,7 +17,7 @@ module.exports = {
     `plugin:jest/all`,
   ],
 
-  ignorePatterns: [`.pnp.js`, `.yarn`, `node_modules`, `lib`],
+  ignorePatterns: [`.pnp.js`, `.yarn/`, `node_modules/`, `lib/`, `coverage/`],
 
   overrides: [
     {
