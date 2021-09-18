@@ -3327,7 +3327,7 @@ __metadata:
     eslint-plugin-react-hooks: ^4.2.0
     eslint-plugin-regexp: ^1.1.0
     eslint-plugin-security: ^1.4.0
-    eslint-plugin-sonarjs: ^0.9.1
+    eslint-plugin-sonarjs: ^0.10.0
     eslint-plugin-unicorn: ^36.0.0
     jest: ^27.0.6
     prettier: ^2.2.1
@@ -6562,15 +6562,6 @@ __metadata:
   peerDependencies:
     eslint: ^5.0.0 || ^6.0.0 || ^7.0.0
   checksum: 28e5c001b15d18277b5c4123016b3e898d81f9a07772e8c3bed4c5a33d48d1c98ce99681d5a7dd58213490619729db805502c3b9c84123a97464660dc8fcaaf6
-  languageName: node
-  linkType: hard
-
-"eslint-plugin-sonarjs@npm:^0.9.1":
-  version: 0.9.1
-  resolution: "eslint-plugin-sonarjs@npm:0.9.1"
-  peerDependencies:
-    eslint: ^5.0.0 || ^6.0.0 || ^7.0.0
-  checksum: 279d9a4318928d26d20c3bb161a3c65e3eda7cb59dca9b983b4f6614c874b2d62fe93f778a0422fdf118fa9ff8f9507527cba89ba04b4693e2426193cc6c6d59
   languageName: node
   linkType: hard
 
