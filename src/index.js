@@ -106,6 +106,7 @@ module.exports = {
     complexity: `off`,
     curly: `off`,
     "default-case": `off`,
+    "dot-notation": `off`,
 
     "eslint-comments/no-unlimited-disable": `off`,
 
