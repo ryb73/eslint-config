@@ -175,6 +175,7 @@ module.exports = {
     "no-duplicate-imports": `off`,
     "no-empty-function": `off`,
     "no-implicit-coercion": `off`,
+    "no-implicit-globals": `off`,
     "no-inline-comments": `off`,
     "no-invalid-this": `off`,
     "no-magic-numbers": `off`,
