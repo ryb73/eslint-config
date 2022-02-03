@@ -164,6 +164,7 @@ module.exports = {
 
     "line-comment-position": `off`,
     "lines-around-comment": `off`,
+    "lines-between-class-members": `off`,
     "max-len": `off`,
     "max-lines": `off`,
     "max-lines-per-function": `off`,
@@ -196,6 +197,7 @@ module.exports = {
     "prefer-destructuring": `off`,
 
     "promise/avoid-new": `off`,
+    "promise/prefer-await-to-then": `off`,
 
     "putout/putout": `off`,
 
@@ -234,6 +236,7 @@ module.exports = {
 
     "sonarjs/cognitive-complexity": `off`,
     "sonarjs/elseif-without-else": `off`,
+    "sonarjs/max-switch-cases": `off`,
     "sonarjs/no-small-switch": `off`,
 
     "sort-imports": [
@@ -252,6 +255,12 @@ module.exports = {
       },
     ],
     "spaced-comment": [`warn`, `always`, { markers: [`/`] }],
+
+    // Sometimes results in incorrect code, e.g.:
+    // const { x } = o;
+    // o.y = x;
+    // something(o.y); // <- throws lint error, if fixed adds `y` to above destructuring, which is unsafe
+    "unicorn/consistent-destructuring": `off`,
 
     "unicorn/no-abusive-eslint-disable": `off`,
     "unicorn/no-null": `off`,
