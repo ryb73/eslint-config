@@ -118,6 +118,7 @@ module.exports = {
     "import/extensions": `off`,
     "import/group-exports": `off`,
     "import/max-dependencies": `off`,
+    "import/named": `off`,
     "import/no-commonjs": `off`,
     "import/no-extraneous-dependencies": [
       `warn`,
@@ -157,7 +158,9 @@ module.exports = {
       `warn`,
       { onlyFunctionsWithAsyncKeyword: true },
     ],
+    "jest/prefer-lowercase-title": `off`,
     "jest/prefer-strict-equal": `off`,
+    "jest/require-hook": `off`,
     "jest/require-top-level-describe": `off`,
     "jest/unbound-method": `off`,
     "jest/valid-title": `off`,
@@ -264,9 +267,12 @@ module.exports = {
     "unicorn/consistent-destructuring": `off`,
 
     "unicorn/no-abusive-eslint-disable": `off`,
+    "unicorn/no-await-expression-member": `off`,
     "unicorn/no-null": `off`,
+    "unicorn/no-thenable": `off`,
     "unicorn/no-unreadable-array-destructuring": `off`,
     "unicorn/prefer-node-protocol": `off`, // TODO: reevaluate later
+    "unicorn/prefer-object-from-entries": `off`,
     "unicorn/prefer-query-selector": `off`,
     "unicorn/prevent-abbreviations": `off`,
   },
