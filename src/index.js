@@ -138,6 +138,7 @@ module.exports = {
         ],
       },
     ],
+    "import/no-namespace": `off`,
     "import/no-unassigned-import": `off`,
     "import/order": [
       `warn`,
