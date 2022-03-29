@@ -153,6 +153,7 @@ module.exports = {
 
     "jest/consistent-test-it": `off`,
     "jest/lowercase-name": `off`,
+    "jest/no-duplicate-hooks": `off`,
     "jest/no-export": `off`,
     "jest/no-hooks": `off`,
     "jest/prefer-expect-assertions": [
@@ -211,6 +212,7 @@ module.exports = {
 
     "react/destructuring-assignment": `off`,
     "react/forbid-component-props": `off`,
+    "react/hook-use-state": `off`,
     "react/jsx-curly-newline": `off`,
     "react/jsx-filename-extension": `off`,
     "react/jsx-indent": `off`,
