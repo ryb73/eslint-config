@@ -31,11 +31,13 @@
     "eslint-import-resolver-node": "^0.3.4",
     "eslint-plugin-array-func": "^3.1.7",
     "eslint-plugin-eslint-comments": "^3.2.0",
+    "eslint-plugin-etc": "^2.0.2",
     "eslint-plugin-ext": "^0.1.0",
     "eslint-plugin-import": "^2.25.4",
     "eslint-plugin-jest": "^26.1.1",
     "eslint-plugin-json": "^3.1.0",
     "eslint-plugin-no-constructor-bind": "^2.0.4",
+    "eslint-plugin-no-explicit-type-exports": "^0.12.1",
     "eslint-plugin-no-use-extend-native": "^0.5.0",
     "eslint-plugin-prettier": "^4.0.0",
     "eslint-plugin-promise": "^6.0.0",
@@ -64,11 +66,13 @@
     "eslint-import-resolver-node": "^0.3.4",
     "eslint-plugin-array-func": "^3.1.7",
     "eslint-plugin-eslint-comments": "^3.2.0",
+    "eslint-plugin-etc": "^2.0.2",
     "eslint-plugin-ext": "^0.1.0",
     "eslint-plugin-import": "^2.25.4",
     "eslint-plugin-jest": "^26.1.1",
     "eslint-plugin-json": "^3.1.0",
     "eslint-plugin-no-constructor-bind": "^2.0.4",
+    "eslint-plugin-no-explicit-type-exports": "^0.12.1",
     "eslint-plugin-no-use-extend-native": "^0.5.0",
     "eslint-plugin-prettier": "^4.0.0",
     "eslint-plugin-promise": "^6.0.0",
@@ -87,98 +91,6 @@
     "putout": "^24.6.0",
     "typescript": "^4.2.4"
   },
-  "peerDependenciesMeta": {
-    "@emotion/eslint-plugin": {
-      "optional": true
-    },
-    "@shopify/eslint-plugin": {
-      "optional": true
-    },
-    "@typescript-eslint/eslint-plugin": {
-      "optional": true
-    },
-    "@typescript-eslint/parser": {
-      "optional": true
-    },
-    "eslint": {
-      "optional": true
-    },
-    "eslint-config-hardcore": {
-      "optional": true
-    },
-    "eslint-config-prettier": {
-      "optional": true
-    },
-    "eslint-import-resolver-node": {
-      "optional": true
-    },
-    "eslint-plugin-array-func": {
-      "optional": true
-    },
-    "eslint-plugin-eslint-comments": {
-      "optional": true
-    },
-    "eslint-plugin-ext": {
-      "optional": true
-    },
-    "eslint-plugin-import": {
-      "optional": true
-    },
-    "eslint-plugin-jest": {
-      "optional": true
-    },
-    "eslint-plugin-json": {
-      "optional": true
-    },
-    "eslint-plugin-no-constructor-bind": {
-      "optional": true
-    },
-    "eslint-plugin-no-use-extend-native": {
-      "optional": true
-    },
-    "eslint-plugin-prettier": {
-      "optional": true
-    },
-    "eslint-plugin-promise": {
-      "optional": true
-    },
-    "eslint-plugin-putout": {
-      "optional": true
-    },
-    "eslint-plugin-react": {
-      "optional": true
-    },
-    "eslint-plugin-react-hooks": {
-      "optional": true
-    },
-    "eslint-plugin-regexp": {
-      "optional": true
-    },
-    "eslint-plugin-security": {
-      "optional": true
-    },
-    "eslint-plugin-sonarjs": {
-      "optional": true
-    },
-    "eslint-plugin-unicorn": {
-      "optional": true
-    },
-    "graphql": {
-      "optional": true
-    },
-    "jest": {
-      "optional": true
-    },
-    "prettier": {
-      "optional": true
-    },
-    "putout": {
-      "optional": true
-    },
-    "typescript": {
-      "optional": true
-    }
-  },
   "// transitivePeerDeps": {
     "//": "Peer dependencies that aren't used directly by this package, but by its direct peer dependencies",
     "deps": [
@@ -188,10 +100,12 @@
       "eslint-config-prettier",
       "eslint-plugin-array-func",
       "eslint-plugin-eslint-comments",
+      "eslint-plugin-etc",
       "eslint-plugin-ext",
       "eslint-plugin-import",
       "eslint-plugin-json",
       "eslint-plugin-no-constructor-bind",
+      "eslint-plugin-no-explicit-type-exports",
       "eslint-plugin-no-use-extend-native",
       "eslint-plugin-prettier",
       "eslint-plugin-promise",

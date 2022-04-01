@@ -10,10 +10,13 @@ module.exports = {
 
   extends: [
     `eslint:all`,
-    `plugin:react/all`,
-    `plugin:react-hooks/recommended`,
     `plugin:@typescript-eslint/all`,
     `hardcore`,
+    `hardcore/ts`,
+    `hardcore/react`,
+    `hardcore/react-testing-library`,
+    `hardcore/jest`,
+    `plugin:react/all`,
     `plugin:jest/all`,
   ],
 
@@ -109,6 +112,8 @@ module.exports = {
     "dot-notation": `off`,
 
     "eslint-comments/no-unlimited-disable": `off`,
+
+    "etc/no-deprecated": `off`,
 
     "ext/lines-between-object-properties": `off`,
 
