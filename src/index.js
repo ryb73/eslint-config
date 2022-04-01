@@ -58,6 +58,8 @@ module.exports = {
   rules: {
     "@emotion/pkg-renaming": `error`,
 
+    "@shopify/jsx-prefer-fragment-wrappers": `off`,
+
     "@typescript-eslint/comma-dangle": `off`,
 
     "@typescript-eslint/consistent-indexed-object-style": [`error`, `record`],
@@ -255,6 +257,7 @@ module.exports = {
     "sonarjs/cognitive-complexity": `off`,
     "sonarjs/elseif-without-else": `off`,
     "sonarjs/max-switch-cases": `off`,
+    "sonarjs/no-nested-template-literals": `off`,
     "sonarjs/no-small-switch": `off`,
 
     "sort-imports": [
