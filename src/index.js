@@ -60,6 +60,8 @@ module.exports = {
 
     "@typescript-eslint/comma-dangle": `off`,
 
+    "@typescript-eslint/consistent-indexed-object-style": [`error`, `record`],
+
     // There are other reasons to do this (at least that I read online), but the straw that broke the camel's
     // back was interfaces not being able to be passed as Loggables
     "@typescript-eslint/consistent-type-definitions": [`warn`, `type`],
@@ -112,6 +114,8 @@ module.exports = {
 
     // This one is throwing an error
     "etc/no-deprecated": `off`,
+
+    "etc/no-t": `off`,
     "etc/prefer-interface": `off`,
 
     "ext/lines-between-object-properties": `off`,
