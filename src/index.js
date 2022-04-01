@@ -10,14 +10,11 @@ module.exports = {
 
   extends: [
     `eslint:all`,
-    `plugin:@typescript-eslint/all`,
     `hardcore`,
     `hardcore/ts`,
     `hardcore/react`,
     `hardcore/react-testing-library`,
     `hardcore/jest`,
-    `plugin:react/all`,
-    `plugin:jest/all`,
   ],
 
   ignorePatterns: [`.pnp.js`, `.yarn/`, `node_modules/`, `lib/`, `coverage/`],
