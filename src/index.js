@@ -17,7 +17,14 @@ module.exports = {
     `hardcore/jest`,
   ],
 
-  ignorePatterns: [`.pnp.js`, `.yarn/`, `node_modules/`, `lib/`, `coverage/`],
+  ignorePatterns: [
+    `.pnp.js`,
+    `.yarn/`,
+    `node_modules/`,
+    `lib/`,
+    `coverage/`,
+    `.next/`,
+  ],
 
   overrides: [
     {
