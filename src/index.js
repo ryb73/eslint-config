@@ -110,7 +110,9 @@ module.exports = {
 
     "eslint-comments/no-unlimited-disable": `off`,
 
+    // This one is throwing an error
     "etc/no-deprecated": `off`,
+    "etc/prefer-interface": `off`,
 
     "ext/lines-between-object-properties": `off`,
 
@@ -155,6 +157,7 @@ module.exports = {
 
     "jest/consistent-test-it": `off`,
     "jest/lowercase-name": `off`,
+    "jest/no-conditional-in-test": `off`,
     "jest/no-duplicate-hooks": `off`,
     "jest/no-export": `off`,
     "jest/no-hooks": `off`,
@@ -168,6 +171,8 @@ module.exports = {
     "jest/require-top-level-describe": `off`,
     "jest/unbound-method": `off`,
     "jest/valid-title": `off`,
+
+    "jest-formatting/padding-around-all": `off`,
 
     "line-comment-position": `off`,
     "lines-around-comment": `off`,
@@ -264,6 +269,9 @@ module.exports = {
       },
     ],
     "spaced-comment": [`warn`, `always`, { markers: [`/`] }],
+
+    "testing-library/no-unnecessary-act": `off`,
+    "testing-library/render-result-naming-convention": `off`,
 
     // Sometimes results in incorrect code, e.g.:
     // const { x } = o;
