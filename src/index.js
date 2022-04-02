@@ -12,6 +12,7 @@ module.exports = {
     `eslint:all`,
     `hardcore`,
     `hardcore/ts`,
+    `hardcore/ts-for-js`,
     `hardcore/react`,
     `hardcore/react-testing-library`,
     `hardcore/jest`,
