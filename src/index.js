@@ -1,5 +1,6 @@
 "use strict";
 
+/** @type {import('@typescript-eslint/experimental-utils').TSESLint.Linter.Config} */
 module.exports = {
   env: {
     es6: true,
