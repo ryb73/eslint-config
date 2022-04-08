@@ -266,6 +266,7 @@ module.exports = {
 
     "react-perf/jsx-no-jsx-as-prop": `off`,
     "react-perf/jsx-no-new-function-as-prop": `off`,
+    "react-perf/jsx-no-new-object-as-prop": `off`,
 
     "require-await": `off`,
 
