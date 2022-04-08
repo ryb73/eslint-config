@@ -235,6 +235,7 @@ module.exports = {
     "quote-props": `off`,
     quotes: `off`,
 
+    "react/boolean-prop-naming": `off`,
     "react/destructuring-assignment": `off`,
     "react/forbid-component-props": `off`,
     "react/hook-use-state": `off`,
