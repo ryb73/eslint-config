@@ -259,6 +259,8 @@ module.exports = {
     "react/react-in-jsx-scope": `off`,
     "react/require-default-props": `off`,
 
+    "react-perf/jsx-no-jsx-as-prop": `off`,
+
     "require-await": `off`,
 
     "security/detect-child-process": `off`, // False positive on Regex.exec
