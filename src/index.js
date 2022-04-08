@@ -261,6 +261,8 @@ module.exports = {
     "react/react-in-jsx-scope": `off`,
     "react/require-default-props": `off`,
 
+    "react-hook-form/destructuring-formstate": `off`,
+
     "react-perf/jsx-no-jsx-as-prop": `off`,
 
     "require-await": `off`,
