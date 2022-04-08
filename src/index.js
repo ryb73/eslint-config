@@ -265,6 +265,7 @@ module.exports = {
     "react-hook-form/destructuring-formstate": `off`,
 
     "react-perf/jsx-no-jsx-as-prop": `off`,
+    "react-perf/jsx-no-new-function-as-prop": `off`,
 
     "require-await": `off`,
 
