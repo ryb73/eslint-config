@@ -190,6 +190,8 @@ module.exports = {
 
     "jest-formatting/padding-around-all": `off`,
 
+    "jsx-a11y/accessible-emoji": `off`,
+
     "line-comment-position": `off`,
     "lines-around-comment": `off`,
     "lines-between-class-members": `off`,
