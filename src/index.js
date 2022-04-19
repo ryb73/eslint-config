@@ -31,6 +31,7 @@ module.exports = {
   overrides: [
     {
       files: [
+        `./.eslintrc.cjs`,
         `./.eslintrc.js`,
         `./babel.config.js`,
         `./jest.config.js`,
