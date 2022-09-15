@@ -145,6 +145,7 @@ module.exports = {
       `warn`,
       {
         devDependencies: [
+          `.storybook/**.*`,
           `config/**/*.{js,ts,tsx}`,
           `test/**/*`,
           `.eslintrc.{js,ts,tsx}`,
@@ -229,6 +230,10 @@ module.exports = {
     "prefer-destructuring": `off`,
 
     "promise/avoid-new": `off`,
+    "promise/catch-or-return": [
+      `warn`,
+      { terminationMethod: [`catch`, `finally`] },
+    ],
     "promise/prefer-await-to-then": `off`,
 
     "putout/putout": `off`,
