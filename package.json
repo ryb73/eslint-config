@@ -83,7 +83,6 @@
     "eslint-plugin-sonarjs": "^0.15.0",
     "eslint-plugin-styled-components-a11y": "^1.0.0",
     "eslint-plugin-unicorn": "^43.0.2",
-    "graphql": "^15.5.0",
     "jest": "^27.0.0",
     "prettier": "^2.7.1",
     "putout": "^24.6.0",
