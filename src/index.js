@@ -56,6 +56,12 @@ module.exports = {
         "import/unambiguous": `off`,
       },
     },
+    {
+      files: [`**/*.stories.*`],
+      rules: {
+        "import/no-unused-modules": `off`,
+      },
+    },
   ],
 
   parserOptions: {
