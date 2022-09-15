@@ -79,6 +79,7 @@ module.exports = {
     "@typescript-eslint/comma-dangle": `off`,
 
     "@typescript-eslint/consistent-indexed-object-style": [`error`, `record`],
+    "@typescript-eslint/consistent-type-assertions": `off`,
 
     // There are other reasons to do this (at least that I read online), but the straw that broke the camel's
     // back was interfaces not being able to be passed as Loggables
