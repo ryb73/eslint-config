@@ -114,7 +114,15 @@ module.exports = {
     "@typescript-eslint/quotes": [`warn`, `backtick`],
     "@typescript-eslint/semi": `off`,
     "@typescript-eslint/space-before-function-paren": `off`,
-    "@typescript-eslint/strict-boolean-expressions": `off`,
+    "@typescript-eslint/strict-boolean-expressions": [
+      `error`,
+      {
+        allowString: false,
+        allowNumber: false,
+        // Need allowNullableObject off to catch branded primitives (e.g. Branded<number, IntBrand>)
+        allowNullableObject: false,
+      },
+    ],
     "@typescript-eslint/triple-slash-reference": `off`,
     "@typescript-eslint/unbound-method": `off`,
 
