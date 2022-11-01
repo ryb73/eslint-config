@@ -273,6 +273,10 @@ module.exports = {
         ignoreDOMComponents: true,
       },
     ],
+    "react/jsx-no-leaked-render": [
+      `error`,
+      { validStrategies: [`ternary`, `coerce`] },
+    ],
     "react/jsx-no-literals": `off`,
     "react/jsx-no-useless-fragment": `off`,
     "react/jsx-one-expression-per-line": `off`,
