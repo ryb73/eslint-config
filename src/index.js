@@ -57,7 +57,7 @@ module.exports = {
       },
     },
     {
-      files: [`**/*.stories.*`],
+      files: [`**/*.stories.*`, `vitest.config.*`],
       rules: {
         "import/no-unused-modules": `off`,
       },
