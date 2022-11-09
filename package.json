@@ -1,6 +1,6 @@
 {
   "name": "@ryb73/eslint-config",
-  "version": "7.1.3",
+  "version": "7.1.4",
   "description": "General Typescript eslint config",
   "main": "src/index.js",
   "repository": "git@github.com:ryb73/eslint-config.git",
