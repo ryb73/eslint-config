@@ -172,6 +172,7 @@ module.exports = {
           `next.config.{js,ts,tsx}`,
           `rollup.config.{js,ts,tsx}`,
           `test/**/*`,
+          `vitest.config.*`,
         ],
       },
     ],
