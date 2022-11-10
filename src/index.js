@@ -316,7 +316,7 @@ module.exports = {
       `warn`,
       `asc`,
       {
-        caseSensitive: true, // why true? false seems to make more sense
+        caseSensitive: false,
         natural: true,
         minKeys: 5,
       },
