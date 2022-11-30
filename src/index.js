@@ -91,6 +91,7 @@ module.exports = {
     "@typescript-eslint/explicit-module-boundary-types": `off`,
     "@typescript-eslint/indent": `off`,
     "@typescript-eslint/init-declarations": `off`,
+    "@typescript-eslint/lines-between-class-members": `off`,
     "@typescript-eslint/naming-convention": `off`,
     "@typescript-eslint/no-confusing-void-expression": [
       `warn`,
