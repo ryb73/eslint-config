@@ -343,6 +343,7 @@ module.exports = {
     "unicorn/prefer-object-from-entries": `off`,
     "unicorn/prefer-query-selector": `off`,
     "unicorn/prevent-abbreviations": `off`,
+    "unicorn/switch-case-braces": `off`, // Not necessary; no-case-declarations catches cases where braces matter
   },
 
   settings: {
