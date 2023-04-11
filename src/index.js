@@ -335,6 +335,7 @@ module.exports = {
 
     "unicorn/no-abusive-eslint-disable": `off`,
     "unicorn/no-await-expression-member": `off`,
+    "unicorn/no-negated-condition": `off`,
     "unicorn/no-null": `off`,
     "unicorn/no-thenable": `off`,
     "unicorn/no-unreadable-array-destructuring": `off`,
