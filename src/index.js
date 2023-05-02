@@ -215,6 +215,11 @@ module.exports = {
     "line-comment-position": `off`,
     "lines-around-comment": `off`,
     "lines-between-class-members": `off`,
+    "logical-assignment-operators": [
+      `warn`,
+      `always`,
+      { enforceForIfStatements: false },
+    ],
     "max-len": `off`,
     "max-lines": `off`,
     "max-lines-per-function": `off`,
