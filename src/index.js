@@ -141,6 +141,10 @@ module.exports = {
 
     "eslint-comments/no-unlimited-disable": `off`,
 
+    // This doesn't seem to catch the case where the import is renamed.
+    // Using import/no-deprecated instead.
+    "etc/no-deprecated": `off`,
+
     "etc/no-misused-generics": `off`,
     "etc/no-t": `off`,
     "etc/prefer-interface": `off`,
@@ -155,6 +159,7 @@ module.exports = {
     "import/max-dependencies": `off`,
     "import/named": `off`,
     "import/no-commonjs": `off`,
+    "import/no-deprecated": `warn`,
     "import/no-extraneous-dependencies": [
       `warn`,
       {
