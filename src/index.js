@@ -141,9 +141,6 @@ module.exports = {
 
     "eslint-comments/no-unlimited-disable": `off`,
 
-    // This one is throwing an error
-    "etc/no-deprecated": `off`,
-
     "etc/no-misused-generics": `off`,
     "etc/no-t": `off`,
     "etc/prefer-interface": `off`,
