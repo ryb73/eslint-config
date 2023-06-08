@@ -3140,7 +3140,7 @@ __metadata:
     "@typescript-eslint/utils": ^5.37.0
     "@yarnpkg/pnpify": ^3.0.0-rc.3
     eslint: ^8.28.0
-    eslint-config-hardcore: ^35.6.0
+    eslint-config-hardcore: ^35.6.0 <35.7.0
     eslint-config-prettier: ^8.8.0
     eslint-import-resolver-node: ^0.3.4
     eslint-plugin-array-func: ^3.1.8
@@ -3174,7 +3174,7 @@ __metadata:
     "@typescript-eslint/eslint-plugin": ^5.57.0
     "@typescript-eslint/parser": ^5.57.0
     eslint: ^8.28.0
-    eslint-config-hardcore: ^35.1.0
+    eslint-config-hardcore: ^35.1.0 <35.7.0
     eslint-config-prettier: ^8.8.0
     eslint-import-resolver-node: ^0.3.4
     eslint-plugin-array-func: ^3.1.8
@@ -5643,7 +5643,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-config-hardcore@npm:^35.6.0":
+"eslint-config-hardcore@npm:^35.6.0 <35.7.0":
   version: 35.6.0
   resolution: "eslint-config-hardcore@npm:35.6.0"
   dependencies:
