@@ -158,6 +158,7 @@ module.exports = {
     "import/group-exports": `off`,
     "import/max-dependencies": `off`,
     "import/named": `off`,
+    "import/newline-after-import": `off`,
     "import/no-commonjs": `off`,
     "import/no-deprecated": `warn`,
     "import/no-extraneous-dependencies": [
@@ -333,6 +334,9 @@ module.exports = {
 
     "testing-library/no-unnecessary-act": `off`,
     "testing-library/render-result-naming-convention": `off`,
+
+    // I'd love to enable it, but it's too hard to use
+    "total-functions/no-unsafe-readonly-mutable-assignment": `off`,
 
     // Sometimes results in incorrect code, e.g.:
     // const { x } = o;
