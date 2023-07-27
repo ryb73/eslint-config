@@ -1,6 +1,6 @@
 "use strict";
 
-/** @type {import('@typescript-eslint/experimental-utils').TSESLint.Linter.Config} */
+/** @type {import('@typescript-eslint/utils').TSESLint.Linter.Config} */
 module.exports = {
   env: {
     es6: true,
@@ -253,6 +253,9 @@ module.exports = {
     "no-use-before-define": `off`,
     "no-warning-comments": `off`,
     "padding-line-between-statements": `off`,
+
+    "perfectionist/sort-objects": `off`,
+
     "prefer-destructuring": `off`,
 
     "promise/avoid-new": `off`,
@@ -308,6 +311,8 @@ module.exports = {
 
     "security/detect-child-process": `off`, // False positive on Regex.exec
     "security/detect-unsafe-regex": `off`, // False positive? Similar unicorn rule didn't throw error
+
+    "simple-import-sort/imports": `off`,
 
     "sonarjs/cognitive-complexity": `off`,
     "sonarjs/elseif-without-else": `off`,
