@@ -3268,7 +3268,7 @@ __metadata:
     "@testing-library/dom": ^9.3.0
     "@typescript-eslint/eslint-plugin": ^6.2.0
     "@typescript-eslint/parser": ^6.2.0
-    eslint: ^8.28.0
+    eslint: ^8.45.0
     eslint-config-hardcore: ^36.3.2
     eslint-config-prettier: ^8.8.0
     eslint-import-resolver-node: ^0.3.4
