@@ -254,6 +254,7 @@ module.exports = {
     "no-warning-comments": `off`,
     "padding-line-between-statements": `off`,
 
+    "perfectionist/sort-object-types": `off`,
     "perfectionist/sort-objects": `off`,
 
     "prefer-destructuring": `off`,
@@ -312,7 +313,11 @@ module.exports = {
     "security/detect-child-process": `off`, // False positive on Regex.exec
     "security/detect-unsafe-regex": `off`, // False positive? Similar unicorn rule didn't throw error
 
+    "simple-import-sort/exports": `off`,
     "simple-import-sort/imports": `off`,
+
+    "sonar/no-wildcard-import": `off`,
+    "sonar/redundant-type-aliases": `off`,
 
     "sonarjs/cognitive-complexity": `off`,
     "sonarjs/elseif-without-else": `off`,
