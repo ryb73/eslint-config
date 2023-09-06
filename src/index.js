@@ -74,18 +74,13 @@ module.exports = {
 
   rules: {
     "@emotion/pkg-renaming": `error`,
-
     "@shopify/jsx-prefer-fragment-wrappers": `off`,
-
     "@typescript-eslint/comma-dangle": `off`,
-
     "@typescript-eslint/consistent-indexed-object-style": [`error`, `record`],
     "@typescript-eslint/consistent-type-assertions": `off`,
-
     // There are other reasons to do this (at least that I read online), but the straw that broke the camel's
     // back was interfaces not being able to be passed as Loggables
     "@typescript-eslint/consistent-type-definitions": [`warn`, `type`],
-
     "@typescript-eslint/dot-notation": `off`,
     "@typescript-eslint/explicit-function-return-type": `off`,
     "@typescript-eslint/explicit-module-boundary-types": `off`,
@@ -107,6 +102,13 @@ module.exports = {
     "@typescript-eslint/no-non-null-assertion": `off`,
     "@typescript-eslint/no-require-imports": `off`,
     "@typescript-eslint/no-type-alias": `off`,
+    "@typescript-eslint/no-unnecessary-boolean-literal-compare": [
+      `error`,
+      {
+        allowComparingNullableBooleansToTrue: true,
+        allowComparingNullableBooleansToFalse: true,
+      },
+    ],
     "@typescript-eslint/no-unsafe-assignment": `off`,
     "@typescript-eslint/no-var-requires": `off`,
     "@typescript-eslint/object-curly-spacing": `off`,
@@ -127,32 +129,24 @@ module.exports = {
     ],
     "@typescript-eslint/triple-slash-reference": `off`,
     "@typescript-eslint/unbound-method": `off`,
-
     "array-callback-return": `off`,
-
     "array-func/prefer-flat-map": `off`,
-
     camelcase: `off`,
     "capitalized-comments": `off`,
     complexity: `off`,
     curly: `off`,
     "default-case": `off`,
     "dot-notation": `off`,
-
+    eqeqeq: [`error`, `smart`],
     "eslint-comments/no-unlimited-disable": `off`,
-
     // This doesn't seem to catch the case where the import is renamed.
     // Using import/no-deprecated instead.
     "etc/no-deprecated": `off`,
-
     "etc/no-misused-generics": `off`,
     "etc/no-t": `off`,
     "etc/prefer-interface": `off`,
-
     "ext/lines-between-object-properties": `off`,
-
     "id-length": `off`,
-
     "import/exports-last": `off`,
     "import/extensions": `off`,
     "import/group-exports": `off`,
@@ -191,9 +185,7 @@ module.exports = {
       },
     ],
     "import/prefer-default-export": `off`,
-
     "init-declarations": `off`,
-
     "jest/consistent-test-it": `off`,
     "jest/lowercase-name": `off`,
     "jest/no-conditional-in-test": `off`,
@@ -210,11 +202,9 @@ module.exports = {
     "jest/require-top-level-describe": `off`,
     "jest/unbound-method": `off`,
     "jest/valid-title": `off`,
-
     "jest-formatting/padding-around-all": `off`,
-
     "jsx-a11y/accessible-emoji": `off`,
-
+    "jsx-a11y/prefer-tag-over-role": `off`,
     "line-comment-position": `off`,
     "lines-around-comment": `off`,
     "lines-between-class-members": `off`,
@@ -223,6 +213,7 @@ module.exports = {
       `always`,
       { enforceForIfStatements: false },
     ],
+    "max-depth": `off`,
     "max-len": `off`,
     "max-lines": `off`,
     "max-lines-per-function": `off`,
@@ -230,8 +221,10 @@ module.exports = {
     "max-statements": `off`,
     "new-cap": `off`,
     "no-console": `warn`,
+    "no-continue": `off`,
     "no-duplicate-imports": `off`,
     "no-empty-function": `off`,
+    "no-eq-null": `off`,
     "no-implicit-coercion": `off`,
     "no-implicit-globals": `off`,
     "no-inline-comments": `off`,
@@ -253,24 +246,18 @@ module.exports = {
     "no-use-before-define": `off`,
     "no-warning-comments": `off`,
     "padding-line-between-statements": `off`,
-
     "perfectionist/sort-object-types": `off`,
     "perfectionist/sort-objects": `off`,
-
     "prefer-destructuring": `off`,
-
     "promise/avoid-new": `off`,
     "promise/catch-or-return": [
       `warn`,
       { terminationMethod: [`catch`, `finally`] },
     ],
     "promise/prefer-await-to-then": `off`,
-
     "putout/putout": `off`,
-
     "quote-props": `off`,
     quotes: `off`,
-
     "react/boolean-prop-naming": `off`,
     "react/destructuring-assignment": `off`,
     "react/forbid-component-props": `off`,
@@ -301,30 +288,22 @@ module.exports = {
     "react/prop-types": `off`,
     "react/react-in-jsx-scope": `off`,
     "react/require-default-props": `off`,
-
     "react-hook-form/destructuring-formstate": `off`,
-
     "react-perf/jsx-no-jsx-as-prop": `off`,
     "react-perf/jsx-no-new-function-as-prop": `off`,
     "react-perf/jsx-no-new-object-as-prop": `off`,
-
     "require-await": `off`,
-
     "security/detect-child-process": `off`, // False positive on Regex.exec
     "security/detect-unsafe-regex": `off`, // False positive? Similar unicorn rule didn't throw error
-
     "simple-import-sort/exports": `off`,
     "simple-import-sort/imports": `off`,
-
     "sonar/no-wildcard-import": `off`,
     "sonar/redundant-type-aliases": `off`,
-
     "sonarjs/cognitive-complexity": `off`,
     "sonarjs/elseif-without-else": `off`,
     "sonarjs/max-switch-cases": `off`,
     "sonarjs/no-nested-template-literals": `off`,
     "sonarjs/no-small-switch": `off`,
-
     "sort-imports": [
       `warn`,
       {
@@ -335,25 +314,23 @@ module.exports = {
       `warn`,
       `asc`,
       {
+        allowLineSeparatedGroups: true,
         caseSensitive: false,
         natural: true,
         minKeys: 5,
       },
     ],
     "spaced-comment": [`warn`, `always`, { markers: [`/`] }],
-
     "testing-library/no-unnecessary-act": `off`,
     "testing-library/render-result-naming-convention": `off`,
-
     // I'd love to enable it, but it's too hard to use
     "total-functions/no-unsafe-readonly-mutable-assignment": `off`,
-
     // Sometimes results in incorrect code, e.g.:
     // const { x } = o;
     // o.y = x;
     // something(o.y); // <- throws lint error, if fixed adds `y` to above destructuring, which is unsafe
     "unicorn/consistent-destructuring": `off`,
-
+    "unicorn/filename-case": `off`,
     "unicorn/no-abusive-eslint-disable": `off`,
     "unicorn/no-await-expression-member": `off`,
     "unicorn/no-negated-condition": `off`,
