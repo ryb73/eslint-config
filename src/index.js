@@ -155,6 +155,8 @@ module.exports = {
     "import/newline-after-import": `off`,
     "import/no-commonjs": `off`,
     "import/no-deprecated": `warn`,
+    // I think `prefer-inline: true` is preferable, but its fix function results in broken code for default imports
+    "import/no-duplicates": [`error`, { "prefer-inline": false }],
     "import/no-extraneous-dependencies": [
       `warn`,
       {
