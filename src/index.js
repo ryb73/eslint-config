@@ -100,6 +100,7 @@ module.exports = {
     "@typescript-eslint/no-invalid-void-type": `off`,
     "@typescript-eslint/no-magic-numbers": `off`,
     "@typescript-eslint/no-non-null-assertion": `off`,
+    "@typescript-eslint/no-redeclare": `off`, // This is disabled because it disallows types and variables with the same name, and doesn't really add any functionality beyond what TS already provides
     "@typescript-eslint/no-require-imports": `off`,
     "@typescript-eslint/no-type-alias": `off`,
     "@typescript-eslint/no-unnecessary-boolean-literal-compare": [
