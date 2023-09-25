@@ -99,6 +99,7 @@ module.exports = {
     "@typescript-eslint/no-invalid-this": `off`,
     "@typescript-eslint/no-invalid-void-type": `off`,
     "@typescript-eslint/no-magic-numbers": `off`,
+    "@typescript-eslint/no-namespace": `off`, // No real reason to have this on. Sometimes namespaces are necessary, and who would use a namespace today not knowing that modules esist?
     "@typescript-eslint/no-non-null-assertion": `off`,
     "@typescript-eslint/no-redeclare": `off`, // This is disabled because it disallows types and variables with the same name, and doesn't really add any functionality beyond what TS already provides
     "@typescript-eslint/no-require-imports": `off`,
@@ -349,6 +350,7 @@ module.exports = {
     "unicorn/prefer-query-selector": `off`,
     "unicorn/prevent-abbreviations": `off`,
     "unicorn/switch-case-braces": `off`, // Not necessary; no-case-declarations catches cases where braces matter
+    "vars-on-top": `off`,
   },
 
   settings: {
