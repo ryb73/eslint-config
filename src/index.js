@@ -31,16 +31,16 @@ module.exports = {
   overrides: [
     {
       files: [
-        `./.eslintrc.cjs`,
-        `./.eslintrc.js`,
-        `./babel.config.js`,
-        `./jest.config.js`,
-        `./jest.globalSetup.js`,
-        `./jest.globalTeardown.js`,
-        `./jest.setup.js`,
-        `./metro.config.js`,
-        `./next.config.js`,
-        `./react-native.config.js`,
+        `./.eslintrc.{js,cjs}`,
+        `./.stylelintrc.{js,cjs}`,
+        `./babel.config.{js,cjs}`,
+        `./jest.config.{js,cjs}`,
+        `./jest.globalSetup.{js,cjs}`,
+        `./jest.globalTeardown.{js,cjs}`,
+        `./jest.setup.{js,cjs}`,
+        `./metro.config.{js,cjs}`,
+        `./next.config.{js,cjs}`,
+        `./react-native.config.{js,cjs}`,
       ],
       parserOptions: {
         sourceType: `script`,
