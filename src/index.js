@@ -135,6 +135,12 @@ module.exports = {
         allowNullableObject: false,
       },
     ],
+    "@typescript-eslint/switch-exhaustiveness-check": [
+      `warn`,
+      {
+        requireDefaultForNonUnion: false,
+      },
+    ],
     "@typescript-eslint/triple-slash-reference": `off`,
     "@typescript-eslint/unbound-method": `off`,
     "array-callback-return": `off`,
