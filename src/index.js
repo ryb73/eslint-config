@@ -109,7 +109,7 @@ module.exports = {
     ],
     "@typescript-eslint/no-type-alias": `off`,
     "@typescript-eslint/no-unnecessary-boolean-literal-compare": [
-      `error`,
+      `warn`,
       {
         allowComparingNullableBooleansToTrue: true,
         allowComparingNullableBooleansToFalse: true,
@@ -125,7 +125,7 @@ module.exports = {
     "@typescript-eslint/semi": `off`,
     "@typescript-eslint/space-before-function-paren": `off`,
     "@typescript-eslint/strict-boolean-expressions": [
-      `error`,
+      `warn`,
       {
         allowString: false,
         allowNumber: false,
@@ -143,7 +143,7 @@ module.exports = {
     curly: `off`,
     "default-case": `off`,
     "dot-notation": `off`,
-    eqeqeq: [`error`, `smart`],
+    eqeqeq: [`warn`, `smart`],
     "eslint-comments/no-unlimited-disable": `off`,
     "etc/no-commented-out-code": `warn`,
     // This doesn't seem to catch the case where the import is renamed.
@@ -286,7 +286,7 @@ module.exports = {
       },
     ],
     "react/jsx-no-leaked-render": [
-      `error`,
+      `warn`,
       { validStrategies: [`ternary`, `coerce`] },
     ],
     "react/jsx-no-literals": `off`,
