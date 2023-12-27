@@ -87,6 +87,7 @@ module.exports = {
     "@typescript-eslint/indent": `off`,
     "@typescript-eslint/init-declarations": `off`,
     "@typescript-eslint/lines-between-class-members": `off`,
+    "@typescript-eslint/max-params": `off`,
     "@typescript-eslint/naming-convention": `off`,
     "@typescript-eslint/no-confusing-void-expression": [
       `warn`,
@@ -118,6 +119,7 @@ module.exports = {
     "@typescript-eslint/no-unsafe-assignment": `off`,
     "@typescript-eslint/no-var-requires": `off`,
     "@typescript-eslint/object-curly-spacing": `off`,
+    "@typescript-eslint/prefer-destructuring": `off`,
     "@typescript-eslint/prefer-nullish-coalescing": `off`,
     "@typescript-eslint/prefer-readonly-parameter-types": `off`,
     "@typescript-eslint/promise-function-async": `off`,
@@ -139,6 +141,7 @@ module.exports = {
     "array-func/prefer-flat-map": `off`,
     camelcase: `off`,
     "capitalized-comments": `off`,
+    "compat/compat": `off`,
     complexity: `off`,
     curly: `off`,
     "default-case": `off`,
@@ -257,6 +260,7 @@ module.exports = {
     "padding-line-between-statements": `off`,
     "perfectionist/sort-object-types": `off`,
     "perfectionist/sort-objects": `off`,
+    "prefer-arrow-callback": `off`,
     "prefer-destructuring": `off`,
     "promise/avoid-new": `off`,
     "promise/catch-or-return": [
@@ -302,6 +306,7 @@ module.exports = {
     "react-perf/jsx-no-jsx-as-prop": `off`,
     "react-perf/jsx-no-new-function-as-prop": `off`,
     "react-perf/jsx-no-new-object-as-prop": `off`,
+    "regexp/require-unicode-sets-regexp": `off`, // was banned from github?
     "require-await": `off`,
     "security/detect-child-process": `off`, // False positive on Regex.exec
     "security/detect-unsafe-regex": `off`, // False positive? Similar unicorn rule didn't throw error
