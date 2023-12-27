@@ -76,7 +76,7 @@ module.exports = {
     "@emotion/pkg-renaming": `error`,
     "@shopify/jsx-prefer-fragment-wrappers": `off`,
     "@typescript-eslint/comma-dangle": `off`,
-    "@typescript-eslint/consistent-indexed-object-style": [`error`, `record`],
+    "@typescript-eslint/consistent-indexed-object-style": [`warn`, `record`],
     "@typescript-eslint/consistent-type-assertions": `off`,
     // There are other reasons to do this (at least that I read online), but the straw that broke the camel's
     // back was interfaces not being able to be passed as Loggables
@@ -145,6 +145,7 @@ module.exports = {
     "dot-notation": `off`,
     eqeqeq: [`error`, `smart`],
     "eslint-comments/no-unlimited-disable": `off`,
+    "etc/no-commented-out-code": `warn`,
     // This doesn't seem to catch the case where the import is renamed.
     // Using import/no-deprecated instead.
     "etc/no-deprecated": `off`,
@@ -162,7 +163,7 @@ module.exports = {
     "import/no-commonjs": `off`,
     "import/no-deprecated": `warn`,
     // I think `prefer-inline: true` is preferable, but its fix function results in broken code for default imports
-    "import/no-duplicates": [`error`, { "prefer-inline": false }],
+    "import/no-duplicates": [`warn`, { "prefer-inline": false }],
     "import/no-extraneous-dependencies": [
       `warn`,
       {
@@ -269,6 +270,7 @@ module.exports = {
     "react/boolean-prop-naming": `off`,
     "react/destructuring-assignment": `off`,
     "react/forbid-component-props": `off`,
+    "react/function-component-definition": `off`,
     "react/hook-use-state": `off`,
     "react/jsx-curly-newline": `off`,
     "react/jsx-filename-extension": `off`,
@@ -305,6 +307,7 @@ module.exports = {
     "security/detect-unsafe-regex": `off`, // False positive? Similar unicorn rule didn't throw error
     "simple-import-sort/exports": `off`,
     "simple-import-sort/imports": `off`,
+    "sonar/cookies": `off`,
     "sonar/no-wildcard-import": `off`,
     "sonar/redundant-type-aliases": `off`,
     "sonarjs/cognitive-complexity": `off`,
@@ -341,6 +344,7 @@ module.exports = {
     "unicorn/filename-case": `off`,
     "unicorn/no-abusive-eslint-disable": `off`,
     "unicorn/no-await-expression-member": `off`,
+    "unicorn/no-document-cookie": `off`,
     "unicorn/no-negated-condition": `off`,
     "unicorn/no-null": `off`,
     "unicorn/no-thenable": `off`,
