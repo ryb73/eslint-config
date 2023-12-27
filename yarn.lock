@@ -6210,7 +6210,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-plugin-jest@npm:^27.6.0":
+"eslint-plugin-jest@npm:^27.2.3, eslint-plugin-jest@npm:^27.6.0":
   version: 27.6.0
   resolution: "eslint-plugin-jest@npm:27.6.0"
   dependencies:
