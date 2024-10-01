@@ -75,6 +75,10 @@ module.exports = {
   rules: {
     "@emotion/pkg-renaming": `error`,
     "@shopify/jsx-prefer-fragment-wrappers": `off`,
+    "@stylistic/lines-around-comment": `off`,
+    "@stylistic/max-len": `off`,
+    "@stylistic/padding-line-between-statements": `off`,
+    "@stylistic/quotes": `off`,
     "@typescript-eslint/comma-dangle": `off`,
     "@typescript-eslint/consistent-indexed-object-style": [`warn`, `record`],
     "@typescript-eslint/consistent-type-assertions": `off`,
