@@ -333,6 +333,7 @@ module.exports = {
     "sonar/no-wildcard-import": `off`,
     "sonar/redundant-type-aliases": `off`,
     "sonarjs/cognitive-complexity": `off`,
+    "sonarjs/cookies": `off`,
     "sonarjs/elseif-without-else": `off`,
     "sonarjs/function-return-type": `off`,
     "sonarjs/max-switch-cases": `off`,
