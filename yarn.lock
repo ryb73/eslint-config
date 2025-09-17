@@ -3897,7 +3897,7 @@ __metadata:
   peerDependencies:
     "@emotion/eslint-plugin": ^11.2.0
     eslint: ^8.50.0
-    eslint-config-hardcore: ^45.1.1
+    eslint-config-hardcore: ^47.0.1
     typescript: ">=4.9.6"
   languageName: unknown
   linkType: soft
