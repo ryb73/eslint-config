@@ -276,6 +276,7 @@ module.exports = {
     "perfectionist/sort-modules": `off`,
     "perfectionist/sort-object-types": `off`,
     "perfectionist/sort-objects": `off`,
+    "perfectionist/sort-switch-case": `off`,
     "prefer-arrow-callback": `off`,
     "prefer-destructuring": `off`,
     "promise/avoid-new": `off`,
@@ -366,6 +367,7 @@ module.exports = {
     // o.y = x;
     // something(o.y); // <- throws lint error, if fixed adds `y` to above destructuring, which is unsafe
     "unicorn/consistent-destructuring": `off`,
+    "unicorn/consistent-existence-index-check": `off`,
     "unicorn/filename-case": `off`,
     "unicorn/no-abusive-eslint-disable": `off`,
     "unicorn/no-await-expression-member": `off`,
