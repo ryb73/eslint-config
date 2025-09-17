@@ -341,6 +341,7 @@ module.exports = {
     "sonarjs/no-useless-intersection": `off`,
     "sonarjs/no-wildcard-import": `off`,
     "sonarjs/redundant-type-aliases": `off`,
+    "sonarjs/unused-named-groups": `off`, // would be nice, but has problems with detecting usages
     "sort-imports": [
       `warn`,
       {
