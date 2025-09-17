@@ -76,6 +76,7 @@ module.exports = {
     "@emotion/pkg-renaming": `error`,
     "@shopify/jsx-prefer-fragment-wrappers": `off`,
     "@stylistic/lines-around-comment": `off`,
+    "@stylistic/lines-between-class-members": `off`,
     "@stylistic/max-len": `off`,
     "@stylistic/padding-line-between-statements": `off`,
     "@stylistic/quotes": `off`,
@@ -215,6 +216,9 @@ module.exports = {
     "jest/no-duplicate-hooks": `off`,
     "jest/no-export": `off`,
     "jest/no-hooks": `off`,
+    "jest/padding-around-all": `off`,
+    "jest/padding-around-expect-groups": `off`,
+    "jest/padding-around-test-blocks": `off`,
     "jest/prefer-expect-assertions": [
       `warn`,
       { onlyFunctionsWithAsyncKeyword: true },
@@ -269,6 +273,7 @@ module.exports = {
     "no-use-before-define": `off`,
     "no-warning-comments": `off`,
     "padding-line-between-statements": `off`,
+    "perfectionist/sort-modules": `off`,
     "perfectionist/sort-object-types": `off`,
     "perfectionist/sort-objects": `off`,
     "prefer-arrow-callback": `off`,
@@ -328,9 +333,13 @@ module.exports = {
     "sonar/redundant-type-aliases": `off`,
     "sonarjs/cognitive-complexity": `off`,
     "sonarjs/elseif-without-else": `off`,
+    "sonarjs/function-return-type": `off`,
     "sonarjs/max-switch-cases": `off`,
     "sonarjs/no-nested-template-literals": `off`,
     "sonarjs/no-small-switch": `off`,
+    "sonarjs/no-useless-intersection": `off`,
+    "sonarjs/no-wildcard-import": `off`,
+    "sonarjs/redundant-type-aliases": `off`,
     "sort-imports": [
       `warn`,
       {
@@ -365,6 +374,7 @@ module.exports = {
     "unicorn/no-null": `off`,
     "unicorn/no-thenable": `off`,
     "unicorn/no-unreadable-array-destructuring": `off`,
+    "unicorn/prefer-global-this": `off`,
     "unicorn/prefer-node-protocol": `off`, // TODO: reevaluate later
     "unicorn/prefer-object-from-entries": `off`,
     "unicorn/prefer-query-selector": `off`,
