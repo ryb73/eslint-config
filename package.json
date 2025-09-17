@@ -11,8 +11,8 @@
   },
   "scripts": {
     "lint": "eslint . --ext ts --ext tsx --ext js",
-    "lint-strict": "yarn lint --max-warnings 0",
-    "test": "yarn lint-strict"
+    "lint-strict": "pnpm run lint --max-warnings 0",
+    "test": "pnpm run lint-strict"
   },
   "files": [
     "src/index.js"
@@ -41,5 +41,5 @@
     "@typescript-eslint/parser": "^7.0.0",
     "typescript": "5.6.2"
   },
-  "packageManager": "yarn@4.5.0"
+  "packageManager": "pnpm@10.16.1+sha512.0e155aa2629db8672b49e8475da6226aa4bdea85fdcdfdc15350874946d4f3c91faaf64cbdc4a5d1ab8002f473d5c3fcedcd197989cf0390f9badd3c04678706"
 }

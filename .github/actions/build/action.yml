@@ -3,5 +3,8 @@ description: "Installs and builds"
 runs:
   using: "composite"
   steps:
-    - run: yarn --immutable
+    - uses: pnpm/action-setup@v4
+    - run: pnpm install --frozen-lockfile
+      shell: bash
+    - run: pnpm build
       shell: bash
