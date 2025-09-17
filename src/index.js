@@ -182,6 +182,7 @@ module.exports = {
       {
         devDependencies: [
           `.eslintrc.{js,ts,tsx}`,
+          `.graphqlrc.ts`,
           `.storybook/**.*`,
           `**/*.spec.{js,ts,tsx}`,
           `**/*.test.{js,ts,tsx}`,
